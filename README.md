@@ -1,17 +1,21 @@
 # api-de-games
+
 Esta API é utilizada para TAl e TAL...
 
 ##Endpoints
 
 ###GET /games
+
 Esse endpoint é responsável por retornar a listagem de todos os games cadastrados no banco de dados.
 
 ###Parametros
+
 Nenhum
 
 ###Respostas
 
 ####OK! 200
+
 Caso essa resposta aconteça você vai recebar a listagem de todos os games.
 
 Exemplo de resposta:
@@ -77,15 +81,19 @@ Exemplo:
 ####Respostas
 
 ####OK! 200
+
 Caso essa resposta aconteça você vai receber o token JWT para conseguir acessar endpoints protegidos na API.
 
 Exemplo de resposta:
 
 {
-    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJ2aWN0b3JkZXZ0YkBndWlhZG9wcm9ncmFtYWRvci5jb20iLCJpYXQiOjE1OTE3ODI0NzUsImV4cCI6MTU5MTk1NTI3NX0.y8kp3BxKgC86KFiq6-tAABukR6vi1guTPeRQhO8IdwU"
+    "token": 
+    "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJ2aWN0b3JkZXZ0YkBndWlhZG9wcm9ncmFtYWRvci5jb20iLCJpYXQiOjE1OTE3ODI0NzUsImV4cCI6MTU5MTk1NTI3NX0.y8kp3BxKgC86KFiq6-tAABukR6vi1guTPeRQhO8IdwU"
+    
 }
 
 ####Falha na autenticação! 401
+
 Caso essa resposta aconteça, isso significa que aconteceu alguma falha durante o processo de autenticação da requisição. Motivos: Senha ou e-mail incorretos.
 
 Exemplo de resposta:
