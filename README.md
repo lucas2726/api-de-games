@@ -41,6 +41,7 @@ Exemplo de resposta:
 {
     "err": "Token inválido!"
 }
+
 ###POST /auth
 Esse endpoint é responsável por retornar fazer o processo de login.
 
@@ -52,10 +53,12 @@ password: Senha do usuário cadastrado no sistema, com aquele determinado e-mail
 Exemplo:
 
 {
-	"email": "vLucasBueno@gmail.com",
+	"email": "LucasBueno@gmail.com",
 	"password": "Lucas123"
 }
+
 ####Respostas
+
 ####OK! 200
 Caso essa resposta aconteça você vai receber o token JWT para conseguir acessar endpoints protegidos na API.
 
