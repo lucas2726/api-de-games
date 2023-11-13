@@ -52,8 +52,8 @@ password: Senha do usuário cadastrado no sistema, com aquele determinado e-mail
 Exemplo:
 
 {
-	"email": "victordevtb@guiadoprogramador.com",
-	"password": "nodejs<3"
+	"email": "vLucasBueno@gmail.com",
+	"password": "Lucas123"
 }
 ####Respostas
 ####OK! 200
@@ -64,6 +64,7 @@ Exemplo de resposta:
 {
     "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJ2aWN0b3JkZXZ0YkBndWlhZG9wcm9ncmFtYWRvci5jb20iLCJpYXQiOjE1OTE3ODI0NzUsImV4cCI6MTU5MTk1NTI3NX0.y8kp3BxKgC86KFiq6-tAABukR6vi1guTPeRQhO8IdwU"
 }
+
 ####Falha na autenticação! 401
 Caso essa resposta aconteça, isso significa que aconteceu alguma falha durante o processo de autenticação da requisição. Motivos: Senha ou e-mail incorretos.
 
