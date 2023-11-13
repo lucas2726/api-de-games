@@ -11,15 +11,15 @@ Caso essa resposta aconteça você vai recebar a listagem de todos os games.
 
 Exemplo de resposta:
 
-
 [
 
-
-   {
+    {
+   
          id": 23,
         "title": "Call of duty MW",
         "year": 2019,
         "price": 60
+	
     },
 
     
